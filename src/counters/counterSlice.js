@@ -24,9 +24,21 @@ export const counterSlice = createSlice({
     multiplication: (state) => {
       state.count *= 10;
     },
+    reset: (state) => {
+      state.count = 0;
+    },
+    inputIncrement: (state, action) => {
+      state.count += action.payload;
+    },
   },
 });
 
-export const { increment, decrement, division, multiplication } =
-  counterSlice.actions;
+export const {
+  increment,
+  decrement,
+  division,
+  multiplication,
+  reset,
+  inputIncrement,
+} = counterSlice.actions;
 export default counterSlice.reducer;
