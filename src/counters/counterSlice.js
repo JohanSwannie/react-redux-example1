@@ -12,11 +12,7 @@ export const counterSlice = createSlice({
       state.count += 1;
     },
     decrement: (state) => {
-      if ((state.count > 10000) | (state.count < 0)) {
-        state.count = 50;
-      } else {
-        state.count -= 1;
-      }
+      state.count -= 1;
     },
     division: (state) => {
       state.count /= 10;
