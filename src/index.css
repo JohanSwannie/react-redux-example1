@@ -18,17 +18,42 @@ p {
   margin-bottom: 2rem;
 }
 
+#display-counter {
+  font-size: 1.75rem;
+}
+
 button {
   color: #fff;
   background-color: blue;
-  width: 8vw;
-  height: 5vh;
+  width: 15vw;
+  height: 8vh;
   font-size: 1.5rem;
-  margin-right: 0.5rem;
+  margin-right: 2vw;
 }
 
 .actions {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 0.5rem;
+}
+
+.extra-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 17vw;
+}
+
+.input {
+  color: #fff;
+  background-color: blue;
+  text-align: center;
+  width: 18vw;
+  height: 11vh;
+  margin: 2vw 24vw;
+  padding: 1rem;
+}
+
+input {
+  text-align: center;
+  font-size: 1.2rem;
 }
