@@ -7,12 +7,18 @@ const Counter = () => {
 
   return (
     <section>
-      <p>{count}</p>
+      <p>Counter = {count}</p>
       <div>
         <button onClick={() => dispatch(increment())}>+</button>
         <button onClick={() => dispatch(decrement())}>-</button>
         <button onClick={() => dispatch(division())}>/</button>
         <button onClick={() => dispatch(multiplication())}>*</button>
+        <div className="actions">
+          <p>Add</p>
+          <p>Subtract</p>
+          <p>Divide</p>
+          <p>Multiply</p>
+        </div>
       </div>
     </section>
   );
