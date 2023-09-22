@@ -19,7 +19,7 @@ export const counterSlice = createSlice({
       }
     },
     division: (state) => {
-      state.count /= 0.5;
+      state.count /= 5;
     },
     multiplication: (state) => {
       state.count *= 10;
