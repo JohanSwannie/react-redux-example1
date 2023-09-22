@@ -1,9 +1,10 @@
+import Counter from "./counters/Counter";
 
 function App() {
   return (
-    <div className="App">
-      HAllo julle oulike pampoenskilletjies
-    </div>
+    <main>
+      <Counter />
+    </main>
   );
 }
 
