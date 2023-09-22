@@ -26,3 +26,9 @@ button {
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 0.5rem;
+}
