@@ -10,7 +10,7 @@ import {
 } from "./counterSlice";
 
 const Counter = () => {
-  const counter = useSelector((state) => state.counter.count);
+  const counter = useSelector((state) => state.counterMan.count);
   const dispatch = useDispatch();
   const [inputIncrementAmount, setInputIncrementAmount] = useState(0);
 
