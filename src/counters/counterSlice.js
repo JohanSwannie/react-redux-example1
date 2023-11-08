@@ -37,4 +37,5 @@ export const {
   reset,
   inputIncrement,
 } = counterSlice.actions;
+
 export default counterSlice.reducer;
