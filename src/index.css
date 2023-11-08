@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Tangerine", cursive;
 }
 
 body {
@@ -20,7 +18,7 @@ p {
 }
 
 #display-counter {
-  font-size: 1.75rem;
+  font-size: 3rem;
 }
 
 button {
@@ -28,7 +26,7 @@ button {
   background-color: blue;
   width: 15vw;
   height: 8vh;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 2vw;
 }
 
@@ -36,6 +34,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 0.5rem;
+  font-size: 2rem;
 }
 
 .extra-buttons {
@@ -44,17 +43,21 @@ button {
   margin: 0 17vw;
 }
 
+label {
+  font-size: 2rem;
+}
+
 .input {
   color: #fff;
   background-color: blue;
   text-align: center;
   width: 18vw;
-  height: 11vh;
+  height: 14vh;
   margin: 2vw 24vw;
   padding: 1rem;
 }
 
 input {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
